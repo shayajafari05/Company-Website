@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hot Beans Home</title>
+ 
+ 
+<body>
+ <section>
+ 
+ 
+ <header>
+<div>
+ <nav>
+  <a href="Home.html" class="logo"><img src="https://th.bing.com/th/id/OIP.IXgSMhB4vhvesDbuzY7B4QHaCe?rs=1&pid=ImgDetMain" alt="Website Logo"></a>
+  <div class="navlink">
+    <ul>
+      <li><a href="HOME.html"> Home </a></li>
+      <li><a href="EMPLOYEES.html"> Employees </a></li>
+      <li><a href="ABOUTUS.html"> About Us </a></li>
+      <li><a href="CONTACTUS.html"> Contact Us </a></li>
+      <li><a href="LOCATIONS.html"> Locations </a></li>
+      <li><a href="COURSES.html"> Courses </a></li>
+      <li><a href="JOBS.html"> Jobs</a></li>
+      <li><a href="APPLY.html"> Application Form</a></li>
+ 
+      <button onclick=myFunction()>Dark Mode</button>
+    </ul>
+</div>
+</div>
+ 
+ </header>
+ 
+<h3>Our Employees</h3><br>
+<table>
+<tr>
+<th>Sarah</th>
+<th>Alice</th>
+<th>Peter</th>
+<th>Paul</th>
+</tr>
+<tr>
+<td><img src="pic.png" alt="Employee name"></td>
+<td><img src="OIP.img" alt="Employee name"></td>
+<td><img src="OIP.jpeg" alt="Employee name"></td>
+<td><img src="picture.png" alt="Employee name"></td>
+</tr>
+<tr>
+    <td>Sarah is one of our web developers who started her job in the comapny after finishing our Python Web Development Course.</td>
+    <td>Alice is one of the professional programmers in the Hot Beans Company.</td>
+    <td>Peter is one of the best web designers in Hote Beans Company.</td>
+    <td>Paul started working in our company as a professional programmer after finishig our Programming Course.</td>
+</table>
+ 
+ 
+</html>
+ 
+ 
+ 
+<style>
+ 
+table
+{
+width:50%;
+}
+table, th, td {
+  border-style: inside;
+  border-collapse: collapse;
+}
+ 
+h3
+{
+color: #017143;
+font-size: 1.2em;
+font-weight: 900;
+}
+ 
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 200px;
+}
+ 
+.navlink {
+    flex: 1;
+    text-align: right;
+}
+ 
+nav ul {
+    flex: 1;
+    text-align: right;
+   
+}
+ 
+.navlink ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+ 
+.navlink ul li a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 18px;
+}
+ 
+.navlink ul li a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #07b833;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+ 
+.navlink ul li a:hover::after {
+    width: 100%;
+}
+ 
+a:hover:not(.active) {
+  background-color: #11111111;
+  border-radius: 8px;
+}
+
+ body {
+            background-image: url('white.jpg'); 
+            background-repeat: no-repeat; 
+            background-size: cover; 
+        }
+ 
+</style>
+ 
+<script>
+ 
+function myFunction() {
+var element = document.body;
+element.classList.toggle("dark-mode");
+}
+</script>

@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobs</title>
+	<div class="content">
+   <div class="textBox">
+      <h2><br><span>Hot Beans Company</span></h2>
+	
+	<header>
+<div>
+ <nav>
+  <a href="Home.html" class="logo"><img src="https://th.bing.com/th/id/OIP.IXgSMhB4vhvesDbuzY7B4QHaCe?rs=1&pid=ImgDetMain" alt="Website Logo"></a>
+  <div class="navlink">
+    <ul>
+      <li><a href="HOME.html"> Home </a></li>
+      <li><a href="EMPLOYEES.html"> Employees </a></li>
+      <li><a href="ABOUTUS.html"> About Us </a></li>
+      <li><a href="CONTACTUS.html"> Contact Us </a></li>
+      <li><a href="LOCATIONS.html"> Locations </a></li>
+      <li><a href="COURSES.html"> Courses </a></li>
+      <li><a href="JOBS.html"> Jobs</a></li>
+      <li><a href="APPLY.html"> Application Form</a></li>
+ 
+      <button onclick=myFunction()>Dark Mode</button>
+    </ul>
+</div>
+</div>
+ 
+ </header>
+ 
+<table>
+<tr>
+<th>Job Description</th>
+<th>Requirements</th> 
+<th>Other Options</th>
+
+</tr>
+
+<td>Your primary task as a web developer will be to use programming languages to create reliable and high-performing websites and web-based applications and services. It's likely that you'll work in one of two areas:
+Back end: which focuses solely on the underlying software and databases, where you'll deal with functional aspects
+Front end: working on the interface and visual design, focusing on aspects that users interact with.
+It's also possible to combine the two which is known as full-stack development.
+</td>
+<td>Bachelor's degree in Web development or related field, or relevant experience.
+Solid knowledge and experience in programming applications.
+Proficient in JavaScript, HTML, CSS.
+Proficient in My SQL.
+Dedicated team player.
+Ability to thrive in a fast-paced environment.
+Solid ability in both written and verbal communication.
+Knowledge of programming language and technical terminology.
+Able to develop ideas and processes and clearly express them.
+High degree of independent judgment.
+Able to solve complex problems.
+</td>
+<td>If you have other interests or your qualifications have slight differences from what we need for this role, you can explore other options that our company has to offer.
+</td>
+</table>
+
+<div class = "wrapper">
+            <div class = "category-filter">
+                <div class = "container">
+                    <div class = "title">
+                        <h1>Featured Jobs</h1>
+                    </div>
+    
+                    <div class = "filter-btns">
+                        <button type = "button" class = "filter-btn" id = "all">all</button>
+                        <button type = "button" class = "filter-btn" id = "new">new</button>
+                        <!-- <button type = "button" class = "filter-btn" id = "specials">specials</button> to be moved to spcial section of the code -->
+                    </div>
+    
+                    <div class = "filter-items">
+                        
+                        
+    
+                        <div class = "filter-item all new">
+                            <div class = "item-img">
+                                <img src = "ImagesHoodies/ArtificaialIntelligence1.jpg" alt = "Item image">
+                                <span class = "discount">New</span>
+                            </div>
+                            <div class = "item-info">
+                                <p>artificial intelligence</p>
+                                <div>
+                                    <span class = "new-price">Are you passionate about pushing the boundaries of technology and shaping the future of AI? Join our team at Hot Beans Company as an Artificial Intelligence Developer and embark on an exciting journey of innovation and discovery.</span>
+                                </div>
+                                <li><a href="APPLY.html"> Application Form</a></li>
+                            </div>
+                        </div>
+    
+                        <div class = "filter-item all best-sellers">
+                            <div class = "item-img">
+                                <img src = "ImagesHoodies/ComputerEngineering1.jpg" alt = "Item image">
+                                
+                            </div>
+                            <div class = "item-info">
+                                <p>Computer Engineering</p>
+                                <div>
+                                    <span class = "new-price">Are you a visionary in the realm of computer engineering, passionate about leveraging technology to solve real-world problems? Join our dynamic team at Hot Beans Company as a Computer Engineering Specialist and play a pivotal role in driving innovation and excellence in our technological endeavors.</span>
+                                </div>
+                                <li><a href="APPLY.html"> Application Form</a></li>
+                            </div>
+                        </div>
+    
+                        <div class = "filter-item all specials">
+                            <div class = "item-img">
+                                <img src = "ImagesHoodies/ComputerTechnician1.jpg" alt = "Item image">
+                                <span class = "discount">currently unavailable.</span>
+                            </div>
+                            <div class = "item-info">
+                                <p>Computer Technician</p>
+                                <div>
+                                    <span class = "new-price">Are you a tech-savvy problem solver with a knack for troubleshooting and fixing computer-related issues? Join our team at Hot Beans Company as a Computer Technician and be the go-to expert for ensuring the smooth operation of our computer systems and networks.</span>
+                                </div>
+                                <li><a href="APPLY.html"> Application Form</a></li>>
+                            </div>
+                        </div>
+    
+                        <div class = "filter-item all new">
+                            <div class = "item-img">
+                                <img src = "ImagesHoodies/CyberSecurity1.jpg" alt = "Item image">
+                                <span class = "discount">New</span>
+                            </div>
+                            <div class = "item-info">
+                                <p>Cyber Security</p>
+                                <div>
+                                    <span class = "new-price">Are you passionate about protecting digital assets and safeguarding against cyber threats? Join our team at Hot Beans Company as a Cybersecurity Specialist and play a critical role in fortifying our systems and defending against security breaches.</span>
+                                </div>
+                               <li><a href="APPLY.html"> Application Form</a></li>
+                            </div>
+                        </div>
+    
+                        <div class = "filter-item all best-sellers">
+                            <div class = "item-img">
+                                <img src = "ImagesHoodies/Softwareenginner1.webp" alt = "Item image">
+                                <span class = "discount">Currently Unavaliable</span>
+                            </div>
+                            <div class = "item-info">
+                                <p>Software Engineer</p>
+                                <div>
+                                    <span class = "new-price">Are you a forward-thinking problem solver with a passion for crafting innovative software solutions? Join our team at Hot Beans Company as a Software Engineer and be part of a dynamic environment where your creativity and technical expertise can make a real impact.</span>
+                                </div>
+                                <li><a href="APPLY.html"> Application Form</a></li>
+                            </div>
+                        </div>
+    
+                        <div class = "filter-item all specials">
+                            <div class = "item-img">
+                                <img src = "ImagesHoodies/SupportSpecialist1.jpg" alt = "Item image">
+                            </div>
+                            <div class = "item-info">
+                                <p>Support Specialist</p>
+                                <div>
+                                    <span class = "new-price">Are you a customer-focused problem solver with a knack for providing exceptional technical support? Join our team at Hot Beans Company as a Support Specialist and become the trusted advocate for our customers, ensuring they receive timely assistance and resolution to their issues.</span>
+                                </div>
+                                <li><a href="APPLY.html"> Application Form</a></li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+</html>
+
+ <style>
+ table 
+{
+width:50%;
+}
+table, th, td {
+  border style: inside;
+  border-collapse: collapse;
+  background-color: #007bff;
+  color: #fff;
+}
+
+.a 
+{
+background-color: #007bff;
+  color: #fff;
+}
+
+
+	
+	.content .textBox  h2 span  
+	{
+	color: #017143;
+	font-size: 1.2em;
+	font-weight: 900;
+	}
+  
+	.dark-mode {
+	background-color: black;
+	color: white;
+	}
+	
+	nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 200px;
+}
+ 
+.navlink {
+    flex: 1;
+    text-align: right;
+}
+ 
+nav ul {
+    flex: 1;
+    text-align: right;
+   
+}
+ 
+.navlink ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+ 
+.navlink ul li a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 18px;
+}
+ 
+.navlink ul li a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #07b833;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+ 
+.navlink ul li a:hover::after {
+    width: 100%;
+}
+ 
+a:hover:not(.active) {
+  background-color: #11111111;
+  border-radius: 8px;
+}
+ body {
+            background-image: url('white.jpg'); 
+            background-repeat: no-repeat; 
+            background-size: cover; 
+        }
+		
+		.wrapper{
+    width: 100%;
+    overflow-x: hidden;
+    padding-top: 10px; 
+
+}
+
+.wrapper .container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.category-filter{
+    margin-top: 40px;
+}
+
+.title{
+    margin-bottom: 40px; /* change margin for the navbar be the same as the homepage nav bar*/
+}
+
+.title h1{
+    color: #fff1f1;
+    text-align: center;
+    font-weight: 800;
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+
+.title h1:hover {
+    transform: translate(1px, -1px);
+}
+
+.filter-btns{
+    text-align: center;
+}
+
+.filter-btn{
+    background: none;
+    cursor: pointer;
+    border: none;
+    font-family: inherit;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 10px 30px;
+    font-size: 16px;
+    color: #d3d3d3;
+    font-weight: 600;
+    letter-spacing: 2px;
+    position: relative;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.filter-btn::after{
+    content: "";
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    height: 2px;
+    width: 0;
+    background-color: #555;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out
+}
+
+.filter-btn:hover{
+    color: #555;
+}
+
+.filter-btn:hover::after{
+    width: 100%;
+}
+
+.active-btn{
+    color: #555;
+}
+
+.active-btn::after{
+    width: 100%;
+}
+
+
+.filter-items{
+    margin-top: 40px;
+}
+
+.item-img{
+    position: relative;
+    overflow: hidden;
+}
+
+.item-img::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(212, 203, 203, 0.1);
+}
+
+</style>
+
+<script>
+function myFunction() {
+var element = document.body;
+element.classList.toggle("dark-mode");
+}
+</script>
+
+
+ 

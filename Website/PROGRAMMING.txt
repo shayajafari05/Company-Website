@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Web Development Course</title>
+	<div class="content">
+   <div class="textBox">
+      <h2><br><span>Hot Beans Company</span></h2>
+	
+	<header>
+<div>
+ <nav>
+  <a href="Home.html" class="logo"><img src="https://th.bing.com/th/id/OIP.IXgSMhB4vhvesDbuzY7B4QHaCe?rs=1&pid=ImgDetMain" alt="Website Logo"></a>
+  <div class="navlink">
+    <ul>
+      <li><a href="HOME.html"> Home </a></li>
+      <li><a href="EMPLOYEES.html"> Employees </a></li>
+      <li><a href="ABOUTUS.html"> About Us </a></li>
+      <li><a href="CONTACTUS.html"> Contact Us </a></li>
+      <li><a href="LOCATIONS.html"> Locations </a></li>
+      <li><a href="COURSES.html"> Courses </a></li>
+      <li><a href="JOBS.html"> Jobs</a></li>
+      <li><a href="APPLY.html"> Application Form</a></li>
+ 
+      <button onclick=myFunction()>Dark Mode</button>
+    </ul>
+</div>
+</div>
+ 
+ </header>
+ 
+<p>Web Programming Course: Unlock the Power of Code<br>
+Are you ready to embark on a journey into the world of web programming? Whether you’re a beginner or looking to level up your skills, our comprehensive course has got you covered. Let’s dive into the details:<br>
+
+Course Overview:
+1. Front-End Development
+HTML, CSS, and JavaScript: Master the trio that forms the foundation of every web page. Learn to create beautiful and responsive user interfaces.
+Responsive Design: Understand how to adapt your designs for various screen sizes and devices.<br>
+2. Back-End Development
+Server-Side Languages: Dive into Python, Ruby, or Node.js. Explore their syntax, data handling, and server-side logic.
+Databases: Learn SQL and NoSQL databases. Build robust back-end systems that store and retrieve data efficiently.<br>
+3. Full-Stack Development
+Connecting Front-End and Back-End: Discover how to integrate your front-end and back-end components seamlessly.
+APIs and RESTful Services: Create APIs for communication between different parts of your application.<br>
+4. Security and Authentication
+User Authentication: Implement secure login and registration systems.
+Security Best Practices: Understand common vulnerabilities and how to protect your applications.<br>
+5. Deployment and Hosting
+Cloud Platforms: Explore AWS, Heroku, or Azure. Deploy your applications to the cloud.
+Domain Management: Learn how to set up custom domains and SSL certificates.<br>
+6. Real-World Projects
+Build a Blog Platform: Create a dynamic blog with user authentication, comments, and CRUD operations.
+E-Commerce Website: Develop an online store with product listings, shopping carts, and payment gateways.<br>
+Why Choose Our Course?<br>
+Practical Approach: Hands-on coding exercises and projects.<br>
+Expert Instructors: Learn from industry professionals.<br>
+Community Support: Join a network of fellow learners.<br>
+Career Opportunities: Web developers are in high demand worldwide.<br>
+Enroll Now and Code Your Way to Success! </p>
+
+</html>
+
+ <style>
+ 
+	.content .textBox  h2 span  
+	{
+	color: #017143;
+	font-size: 1.2em;
+	font-weight: 900;
+	}
+  
+	.dark-mode {
+	background-color: black;
+	color: white;
+	}
+	
+	 p  {
+            background-color: #008000;
+            color: #ffffff;
+            padding: 10px;
+            border-radius: 5px;
+        }
+		
+		nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 200px;
+}
+ 
+.navlink {
+    flex: 1;
+    text-align: right;
+}
+ 
+nav ul {
+    flex: 1;
+    text-align: right;
+   
+}
+ 
+.navlink ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+ 
+.navlink ul li a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 18px;
+}
+ 
+.navlink ul li a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #07b833;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+ 
+.navlink ul li a:hover::after {
+    width: 100%;
+}
+ 
+a:hover:not(.active) {
+  background-color: #11111111;
+  border-radius: 8px;
+}
+
+ body {
+            background-image: url('white.jpg'); 
+            background-repeat: no-repeat; 
+            background-size: cover; 
+        }
+</style>
+
+<script>
+function myFunction() {
+var element = document.body;
+element.classList.toggle("dark-mode");
+}
+</script>

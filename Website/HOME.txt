@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hot Beans Home</title>
+ 
+ 
+<body>
+ <section>
+ 
+ 
+ <header>
+<div>
+ <nav>
+  <a href="Home.html" class="logo"><img src="https://th.bing.com/th/id/OIP.IXgSMhB4vhvesDbuzY7B4QHaCe?rs=1&pid=ImgDetMain" alt="Website Logo"></a>
+  <div class="navlink">
+    <ul>
+      <li><a href="HOME.html"> Home </a></li>
+      <li><a href="EMPLOYEES.html"> Employees </a></li>
+      <li><a href="ABOUTUS.html"> About Us </a></li>
+      <li><a href="CONTACTUS.html"> Contact Us </a></li>
+      <li><a href="LOCATIONS.html"> Locations </a></li>
+      <li><a href="COURSES.html"> Courses </a></li>
+      <li><a href="JOBS.html"> Jobs</a></li>
+      <li><a href="APPLY.html"> Application Form</a></li>
+ 
+      <button onclick=myFunction()>Dark Mode</button>
+    </ul>
+</div>
+</div>
+ 
+ </header>
+ </section>
+ 
+ <h1>Home</h1>
+   <div class="content">
+   <div class="textBox">
+    <h2>This is<br><span>Hot Beans Company</span></h2>
+ 
+ 
+    <section class="Products">
+      <div class="row">
+ 
+        <div class="coursecol">
+          <p> Our certified team breaks the mold blending persuasive messaging, mesmerizing design, and seamless user experience into your website. Following industry leaders' frameworks and backed by a proven track record we can place you in a category of one.
+          </p>
+        </div>
+ 
+          <div class="coursecol">
+            <P>Fast and Responsive Websites Built By Experts! Our London-based company specializes in crafting professional and modern websites that leave a lasting impression. Whether you need a personal portfolio or a robust business platform, we’ve got you covered. Our reasonable prices ensure that anyone can have a stunning online presence.</P>
+        </div>
+ 
+        <div class="coursecol">
+          <P> At HotBeans Web, you’re not just a client; you’re a valued partner. We listen, understand your unique goals, and tailor our solutions accordingly.</P>
+      </div>
+ 
+      </div>
+ 
+    </section>
+   
+   <div class="imgBox">
+    <img src="web.jpg" alt="HotBeans">
+   </div>
+ 
+   </div>
+   </div>
+ 
+ 
+   <div class="socials-1">
+    <h3 class="media-1"></h3>
+    <p class="copywrite-1">Copyright © 2024 Hot Beans Company Inc. All rights reserved.</p>
+  </div>
+ 
+ 
+</body>
+</html>
+ 
+<!--  -->
+ 
+<style>
+ 
+ 
+/* Adding my css code here you can compy and past them in your other pages with the same principle */
+ 
+ 
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 200px;
+}
+ 
+.navlink {
+    flex: 1;
+    text-align: right;
+}
+ 
+nav ul {
+    flex: 1;
+    text-align: right;
+   
+}
+ 
+.navlink ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+ 
+.navlink ul li a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 18px;
+}
+ 
+.navlink ul li a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #07b833;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+ 
+.navlink ul li a:hover::after {
+    width: 100%;
+}
+ 
+header a {
+  display: inline-block;
+}
+ 
+.content {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+ 
+.content .textbox {
+  position: relative;
+  max-width: 600px;
+}
+ 
+.Products {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+ 
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.coursecol:hover {
+    box-shadow: 0 5px 25px rgba(3, 211, 3, 0.247);
+    transform: translate(0px, -8px);
+}
+ 
+ 
+.coursecol {
+    margin-bottom: 400px;
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    box-shadow: 0 1px 25px rgba(0, 0, 0, 0.781);
+}
+ 
+.content .textBox  h2 {
+  color: black;
+  font-size: 4em;
+  line-height: 1.4em;
+  font-weight: 500;
+}
+ 
+.content .textBox  h2 span  {
+  color: #017143;
+  font-size: 1.2em;
+  font-weight: 900;
+}
+ 
+.content .textBox p {
+  color: black;
+}
+ 
+.content .textBox a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 20px;
+  background: #017143;
+  color: #fff;
+  border-radius: 40px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+ 
+ 
+a:hover:not(.active) {
+  background-color: #11111111;
+  border-radius: 8px;
+}
+ 
+body {
+  padding: 25px;
+  font-size: 25px;
+  
+	background-image: url('white.jpg'); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+        
+  }
+ 
+.dark-mode {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  --primary-color: #000106;
+    --second-color: #fff;
+    --third-color: rgb(235, 235, 255);
+    --fifth-color: rgb(0, 0, 0);
+    --my-gradient: linear-gradient(to bottom, #588fff22, #ffffff00);
+    --copywrite-color:rgba(30, 30, 30, 0.867);
+    --buttoncol-color:rgb(255, 188, 94);
+    --buttonpur-color:rgb(0, 0, 0);
+    --Justwhite-color:white;
+    --darkthemebtn-color:rgba(70, 2, 70, 0.79);
+    --Darkthemebtn2-color:rgba(6, 6, 122, 0.789);
+    --transparanttheme-color: rgba(255, 255, 255, 0.800);
+    --buttontransparant1-color: rgba(0, 0, 0, 0.352);
+    --margintab-color: rgba(48, 66, 94, 0.329);
+  }
+ 
+  .socials-1 {
+    margin-top: 350px;
+    padding: 5px;
+    background-color: gray;
+}
+ 
+.media-1 h3 {
+    color: var(--Justwhite-color);
+}
+ 
+.copywrite-1 p {
+    color: var(--Justwhite-color);
+}
+ 
+</style>
+ 
+<script>
+ 
+
+document.getElementById('next-5').onclick = function() {
+    let lists = document.querySelectorAll('.tiem-5');
+    document.getElementById('slide-5').appendChild(lists[0]);
+}
+
+document.getElementById('prev-5').onclick = function() {
+    let lists = document.querySelectorAll('.tiem-5');
+    document.getElementById('slide-5').prepend(lists[lists.length - 1]);
+}
+function myFunction() {
+var element = document.body;
+element.classList.toggle("dark-mode");
+}
+</script>

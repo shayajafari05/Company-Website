@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Web Development Course</title>
+	<div class="content">
+   <div class="textBox">
+      <h2><br><span>Hot Beans Company</span></h2>
+	
+	<header>
+<div>
+ <nav>
+  <a href="Home.html" class="logo"><img src="https://th.bing.com/th/id/OIP.IXgSMhB4vhvesDbuzY7B4QHaCe?rs=1&pid=ImgDetMain" alt="Website Logo"></a>
+  <div class="navlink">
+    <ul>
+      <li><a href="HOME.html"> Home </a></li>
+      <li><a href="EMPLOYEES.html"> Employees </a></li>
+      <li><a href="ABOUTUS.html"> About Us </a></li>
+      <li><a href="CONTACTUS.html"> Contact Us </a></li>
+      <li><a href="LOCATIONS.html"> Locations </a></li>
+      <li><a href="COURSES.html"> Courses </a></li>
+      <li><a href="JOBS.html"> Jobs</a></li>
+      <li><a href="APPLY.html"> Application Form</a></li>
+ 
+      <button onclick=myFunction()>Dark Mode</button>
+    </ul>
+</div>
+</div>
+ 
+ </header>
+ 
+<p> Python Web Development Course: Unlock Your Full Stack Potential!<br>
+Are you ready to dive into the dynamic world of web development? Look no further! Our Python Web Development Course is designed to equip you with the skills needed to create robust, interactive, and scalable web applications. Whether you’re a beginner or an experienced programmer, this course will take you from zero to full-stack hero.<br>
+
+Course Details:<br>
+1. Introduction to Python and Web Technologies
+Learn the fundamentals of Python programming.
+Understand how the web works: HTTP, URLs, and web servers.
+Dive into HTML, CSS, and JavaScript basics.<br>
+2. Building Dynamic Web Pages with Flask
+Explore Flask, a lightweight Python web framework.
+Create dynamic routes, templates, and forms.
+Connect your web app to a database using SQLAlchemy.<br>
+3. Front-End Development with JavaScript and Bootstrap
+Master front-end technologies: JavaScript, jQuery, and AJAX.
+Design responsive and visually appealing interfaces with Bootstrap.
+Implement client-side validation and interactivity.<br>
+4. Back-End Development with Django
+Discover Django, a powerful Python web framework.
+Build models, views, and templates.
+Handle user authentication, sessions, and security.<br>
+5. Deploying Your Web App
+Learn about cloud platforms (AWS, Heroku) and deployment strategies.
+Optimize your app for performance and scalability.<br>
+Launch your project into the real world!
+Why Choose Our Course?<br>
+Hands-On Projects: Work on real-world projects to reinforce your learning.<br>
+Expert Instructors: Learn from experienced developers who’ve built successful web applications.<br>
+Community Support: Join our vibrant community of learners and mentors.<br>
+Career Opportunities: Web development skills are in high demand. Open doors to exciting job prospects.<br>
+</p>
+<img src="python.png" alt="python">
+</html>
+
+ <style>
+ 
+	.content .textBox  h2 span  
+	{
+	color: #017143;
+	font-size: 1.2em;
+	font-weight: 900;
+	}
+  
+	.dark-mode {
+	background-color: black;
+	color: white;
+	}
+	
+	 p  {
+            background-color: #008000; /* Green background color */
+            color: #ffffff; /* White text color */
+            padding: 10px;
+            border-radius: 5px;
+        }
+		nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 200px;
+}
+ 
+.navlink {
+    flex: 1;
+    text-align: right;
+}
+ 
+nav ul {
+    flex: 1;
+    text-align: right;
+   
+}
+ 
+.navlink ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+ 
+.navlink ul li a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 18px;
+}
+ 
+.navlink ul li a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #07b833;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+ 
+.navlink ul li a:hover::after {
+    width: 100%;
+}
+ 
+a:hover:not(.active) {
+  background-color: #11111111;
+  border-radius: 8px;
+}
+
+ body {
+            background-image: url('white.jpg'); 
+            background-repeat: no-repeat; 
+            background-size: cover; 
+        }
+</style>
+
+<script>
+function myFunction() {
+var element = document.body;
+element.classList.toggle("dark-mode");
+}
+</script>
